@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: start;
+    color: white;
+}
+
+.container{
+    background-image: url(../image/sky1.png);
+    position: fixed;
+    background-size: cover;
+}
+
+/*this is for the main_container*/
+.main_container{
+  width: 700px;
+  height:1000px;
+  background-color: yellow; 
+  margin-right: 50%; 
+  margin-left: 50%;
+}
+
+#grid-container {
+    padding-top: 60px;
+    margin-left: 250px;
+    margin-right: 250px;
+    /* width: 20vh;
+    height: 50vh; */
+    display: flex;
+    width: 200px;
+    height: 50px;
+}
+
+.grid-container{
+    margin-top: 18px;
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+}
+
+.text-1{
+    font-size: 5%;
+    color: gray;
+    align-items: start;
+    margin-top: 5px;
+}
+
+.grid-1{
+    background-color: rgba(0, 0, 0, 0.521);
+    color: white;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.grid-2{
+    background-color: rgba(0, 0, 0, 0.521);
+        color: white;
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        border-radius: 10px;
+}
+
+.grid-3{
+    background-color: rgba(0, 0, 0, 0.521);
+        color: white;
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        border-radius: 10px;
+}
+
+.grid-4{
+    background-color: rgba(0, 0, 0, 0.521);
+        color: white;
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        border-radius: 10px;
+}
+
+.t-in-grid{
+    /* margin-top: 10px; */
+    padding-top: 19px;
+    margin-left: 5%;
+    /* display: flex; */
+}
+
+.t-in-grid-2{
+    margin-top: none;
+    margin-left: 5%;
+    display: flex;
+}
+
+.grid-5{
+    background-color: rgba(0, 0, 0, 0.521);
+        color: white;
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        border-radius: 10px;
+}
+
+.grid-6{
+    background-color: rgba(0, 0, 0, 0.521);
+        color: white;
+        height: 200px;
+        width: 200px;
+        align-items: center;
+        border-radius: 10px;
+}
+

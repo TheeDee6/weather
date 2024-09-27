@@ -1,0 +1,17 @@
+{
+    "location": {
+        "name": "Accra",
+        "region": "Greater Accra",
+        "country": "Ghana",
+        "tz_id": "Africa/Accra"
+    },
+    "current": {
+        "last_updated": "2024-09-22 19:30",
+        "temp_c": 26.0,
+        "condition": {
+            "text": "Partly cloudy",
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/116.png"
+        },
+        "feelslike_c": 28.9
+    }
+}

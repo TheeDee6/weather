@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#wrapper{
+    background: #fff url(../image/sky1.png) no-repeat center fixed;
+    background-size: cover;
+
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 4rem;
+    align-items: center;
+}
+
+#header .page-title{
+    display: flex;
+    align-items: center;
+}
+.page-title img{
+    height: 2rem;
+}
+
+#header a{
+    text-decoration: none;
+    /* border: 0;
+    outline: none;
+    border-radius: 10%; */
+}
+
+#header a img {
+    border-radius: 10%;
+    height: 2rem;
+}
+
+#form-section{
+    padding: 6rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-form{
+    display: flex;
+    align-items: center;
+    /* padding: 1.5rem; */
+    border-radius: .9rem;
+    background-color: rgba(255, 255, 255, .8);
+    width: 65%;
+    border: 5px solid rgba(206, 201, 201, 0.8);
+}
+
+#search-form img{
+    border-radius: 50% 0 0 50%;
+    width: 10%;
+    /* border-top: 1px solid rgba(206, 201, 201, 0.8);
+    border-left: 1px solid rgba(206, 201, 201, 0.8);
+    border-bottom: 1px solid rgba(206, 201, 201, 0.8);
+    padding: 2rem 1rem; */
+}
+#search-form input{
+    padding: 1rem 2rem;
+    border-radius: 0 .5rem .5rem 0;
+    width: 90%;
+    border: none;
+}
+
+#cards-section{
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        padding: 4rem;
+}
+.card{
+    /* display: block; */
+    padding: 2rem 2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+        border: none;
+        border-radius: 2rem;
+        /* width: 10rem;
+        height: 10rem; */
+    }
+
+    #footer{
+        background-image: url(../image/sky1.png);
+        background-size: cover;
+        padding: 3rem;
+        text-align: center;
+    }
+
+    #footer p{
+        color: white;
+        font-size: small;
+    }
